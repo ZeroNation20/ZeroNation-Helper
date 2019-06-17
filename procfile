@@ -1,1 +1,1 @@
-worker: python filename.py
+worker: python client.run(os.getenv('Token')).py
